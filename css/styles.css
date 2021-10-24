@@ -141,7 +141,7 @@ button.fas.fa-search{
   border-radius: 30px;
   padding-right: 17px;
 }
-.filtre li:last-child{
+.filter ul li:last-child{
   width: 213px;
 }
 .icone-filtre{
