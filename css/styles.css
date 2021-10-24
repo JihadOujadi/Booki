@@ -137,7 +137,7 @@ button.fas.fa-search{
 .filtre {
   display: flex;
   align-items: center;
-  justify-content: stretch;
+  width: 213px;
   border: 2px solid lightgrey;
   border-radius: 30px;
   padding-right: 17px;
