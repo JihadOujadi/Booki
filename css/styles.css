@@ -137,10 +137,12 @@ button.fas.fa-search{
 .filtre {
   display: flex;
   align-items: center;
-  width: 213px;
   border: 2px solid lightgrey;
   border-radius: 30px;
   padding-right: 17px;
+}
+.filtre:last-child{
+  width: 213px;
 }
 .icone-filtre{
   margin-right: 6%;
