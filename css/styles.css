@@ -565,11 +565,12 @@ footer nav p {
   }
   .container-top h1{
     margin-left: 10px;
-    padding-right: 40px;
+    padding-right: 60px;
+    font-size: 23px;
   }
   .text-top{
     margin-left: 10px;  
-    font-size: 14px;
+    font-size: 16px;
   }
   form{
     margin-right: 0;
