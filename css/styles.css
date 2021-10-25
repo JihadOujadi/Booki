@@ -544,11 +544,21 @@ footer nav p {
     width: 100%;
     border-bottom: 2px solid #f2f2f2;
     margin-right: 0;
+    padding-bottom: 12px;
   }
   .logo{
     width: 30%;
     margin-top: 10px;
     margin-left: 60px;
+  }
+  .menu-item::before{
+  content: "";
+  display: flex;
+  position: relative;
+  top: 32px;
+  border-top: 2px solid #0065fc;
+  width: 0%;
+  transition: width 0.3s ease-in-out;
   }
   .menu-item:hover a{
     color: #0065fc;
