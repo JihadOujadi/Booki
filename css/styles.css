@@ -585,6 +585,7 @@ footer nav p {
   }
   label{
     padding: 17px 20px;
+    left: 7px;
   }
   .bouton{
     display: none;
@@ -593,7 +594,7 @@ footer nav p {
     display: inline-block;
     background-color: #0065fc;
     position: relative;
-    right: 20px;
+    right: 30px;
     border: none;
     color: #ffffff;
     padding: 17px;
@@ -656,7 +657,7 @@ footer nav p {
    gap: 35px;
  }
  .container-bottom{
-   margin-left: 30px;
+   margin-left: 22px;
    padding-left: 0;
    padding-right: 0;
    padding-bottom: 50px;
@@ -681,4 +682,72 @@ footer nav p {
  .menu-bottom ul{
    margin-bottom: 10px;
  }
+}
+@media screen and (max-width: 992px){
+  .logo{
+    width: 10%;
+  }
+  input{
+    width: 20%;
+  }
+  .bouton{
+    width: 13%;
+  }
+  .information{
+    margin-bottom: 20px;
+  }
+  .container-middle{
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+    padding: 0;
+  }
+  #marseille{
+    width: 100%;
+    margin: 0;
+    background: transparent;
+  }
+  .bloc-top{
+    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #populaire{
+    width: 100%;
+    margin: 0;
+  }
+  .pop-title{
+    justify-content: space-around;
+  }
+  .card-pop{
+    width: 55%;
+  }
+  .container-bottom{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .content{
+    gap: 11px;
+  }
+  .act-1 figure, .act-4 figure{
+    height: 340px;
+  }
+  .act-2, .act-3, .act-5, .act-6{
+    width: 240px;
+  }
+  .act-2 figure{
+    height: 150px;
+  }
+  .act-3 figure{
+    height: 110px;
+  }
+  .act-5 figure{
+    height: 120px;
+  }
+  .act-6 figure{
+    height: 140px;
+  }
+  .menu-bottom{
+    gap: 150px;
+  }
 }
