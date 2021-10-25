@@ -140,6 +140,11 @@ button.fas.fa-search{
   border: 2px solid lightgrey;
   border-radius: 30px;
   padding-right: 17px;
+  transition: ease-in-out .3s;
+}
+.filtre:hover{
+  background-color: #0065fc;
+  color: #ffffff;
 }
 .filter ul li:last-child{
   width: 213px;
@@ -286,13 +291,14 @@ figure {
   transform: scaleX(1.03) scaleY(1.03);
 }
 .icone .fa-star{
-  color: #0065fc
-}
-.star{
+  color: #0065fc;
   font-size: 14px;
 }
-.last-star{
-  color: #eeeeee
+.icone-1 li:nth-child(5) i{
+  color: #eeeeee;
+}
+.icone-2 li:nth-child(n+4) i{
+  color: #eeeeee;
 }
 .more {
   text-decoration: none;
@@ -436,6 +442,10 @@ figure {
   display: flex;
   flex-direction: column;
   box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.3);
+}
+.act-1:hover, .act-2:hover, .act-3:hover, .act-4:hover, .act-5:hover, .act-6:hover{
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+  transform: scaleX(1.03) scaleY(1.03);
 }
 .act-1 figure{
   height: 340px;
